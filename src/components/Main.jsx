@@ -5,9 +5,11 @@ const Main = () => {
     return(
         <div>
             <h1>Checklist</h1>
-                <ToDoItem />
-                <ToDoItem />
-                <ToDoItem />
+                <ToDoItem
+                    props={{name: "item", src:"item1.jpg", alt:"ocean view"}}
+                />
+                <ToDoItem/>
+                <ToDoItem/>
         </div>
     )
 }
