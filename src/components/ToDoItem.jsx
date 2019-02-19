@@ -2,7 +2,7 @@ import React from "react"
 
 const ToDoItem = (props) => {
     console.log(props);
-    const {name, src, alt} = props;
+    //const {name, src, alt} = props;
     const styles = {
         width: 200,
         background: "#333",
@@ -14,7 +14,6 @@ const ToDoItem = (props) => {
     }
     return (
         <div className="todo-item" style={styles}>
-            <img src={src} alt={alt}/>
             <input type="checkbox"/>
             <p>Place holder for text</p>
         </div>
