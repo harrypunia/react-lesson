@@ -4,7 +4,8 @@ function Header () {
     const styles = {
         color: "#efefef",
         backgroundColor: "#151515",
-        padding: 20
+        padding: 20,
+        listStyleType: 'none'
     }
     return (
         <div className="header" style={styles}>
