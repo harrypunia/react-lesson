@@ -13,7 +13,7 @@ const ToDoItem = (props) => {
     }
     return (
         <div className="todo-item" style={styles}>
-            <img src={require('../resources/img/item2.jpg')} alt={alt}/>
+            <img src={"resources/img/" + src} alt={alt}/>
             <input type="checkbox"/>
             <p>{name}</p>
         </div>
