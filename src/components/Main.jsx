@@ -5,9 +5,9 @@ const Main = () => {
     return(
         <div>
             <h1>Checklist</h1>
-                <ToDoItem/>
-                <ToDoItem/>
-                <ToDoItem/>
+                <ToDoItem />
+                <ToDoItem />
+                <ToDoItem />
         </div>
     )
 }
