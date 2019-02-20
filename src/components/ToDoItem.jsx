@@ -1,7 +1,8 @@
 import React from "react"
 
-const ToDoItem = (props) => {
-    const {name, src, alt} = props.info;
+const ToDoItem = props => {
+    console.log(props);
+    const {src, alt, text, completed} = props;
     const styles = {
         width: 200,
         background: "#333",
@@ -14,8 +15,8 @@ const ToDoItem = (props) => {
     return (
         <div className="todo-item" style={styles}>
             <img src={"resources/img/" + src} alt={alt}/>
-            <input type="checkbox"/>
-            <p>{name}</p>
+            <input type="checkbox" checked={completed} />
+            <p>{text}</p>
         </div>
     )
 }
